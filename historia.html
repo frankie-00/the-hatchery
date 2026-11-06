@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia — THE HATCHERY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo" style="text-decoration: none;">THE HATCHERY <span>HUB</span></a>
+            
+            <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-menu">
+                <li class="dropdown-container" id="dropdown-container">
+                    <a class="nav-btn dropdown-toggle" onclick="toggleDropdown(event)">Strefy ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="nav-btn" href="muzyka.html">Muzyka</a></li>
+                        <li><a class="nav-btn" href="taniec.html">Taniec</a></li>
+                        <li><a class="nav-btn" href="sztuka.html">Sztuka</a></li>
+                        <li><a class="nav-btn" href="foto.html">Studio Photo</a></li>
+                        <li><a class="nav-btn" href="chill.html">Chill Zone</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-btn" href="wydarzenia.html">Wydarzenia</a></li>
+                <li><a class="nav-btn" href="historia.html">Historia</a></li>
+                <li><a class="nav-btn" href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Jak powstało The Hatchery?</h2>
+        <p class="section-subtitle">Od pomysłu i prośby do Gubernatora po prawdziwą przystań wolnej twórczości.</p>
+
+        <div class="timeline">
+            <!-- Dodana klasa filled wypełnia kółko -->
+            <div class="timeline-item left filled">
+                <div class="timeline-content">
+                    <h3>1. Spotkanie z Gubernatorem</h3>
+                    <p>Młoda dziewczyna z pasją i wizją stworzenia przestrzeni dla amatorów udała się na oficjalne spotkanie, prosząc o wsparcie i przydział przestrzeni miejskiej na hub talentów.</p>
+                </div>
+            </div>
+            <!-- Dodana klasa filled wypełnia kółko -->
+            <div class="timeline-item right filled">
+                <div class="timeline-content">
+                    <h3>2. Otrzymanie kluczy do pustostanu</h3>
+                    <p>Wizja przekonała władze! Otrzymaliśmy klucze do opuszczonego budynku wymagającego pełnego remontu oraz podstawowe wsparcie w postaci materiałów budowlanych na start.</p>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>3. Remont (In progress)</h3>
+                    <p>Rozpoczęła się ciężka praca. Razem z wolontariuszami, lokalnymi przedsiębiorcami i wsparciem miejskich frakcji, krok po kroku odnawiamy ściany, ustawiamy meble i sprzęt.</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>4. Otwarcie (Coming soon)</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p><strong>THE HATCHERY — ARTS & TALENT HUB LS</strong></p>
+        <p class="support">Stworzone dla ludzi przez ludzi. Wspierane przez Miasto.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

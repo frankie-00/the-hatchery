@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chill Zone — THE HATCHERY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo" style="text-decoration: none;">THE HATCHERY <span>HUB</span></a>
+            
+            <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-menu">
+                <li class="dropdown-container" id="dropdown-container">
+                    <a class="nav-btn dropdown-toggle" onclick="toggleDropdown(event)">Strefy ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="nav-btn" href="muzyka.html">Muzyka</a></li>
+                        <li><a class="nav-btn" href="taniec.html">Taniec</a></li>
+                        <li><a class="nav-btn" href="sztuka.html">Sztuka</a></li>
+                        <li><a class="nav-btn" href="foto.html">Studio Photo</a></li>
+                        <li><a class="nav-btn" href="chill.html">Chill Zone</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-btn" href="wydarzenia.html">Wydarzenia</a></li>
+                <li><a class="nav-btn" href="historia.html">Historia</a></li>
+                <li><a class="nav-btn" href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Chill Zone</h2>
+        <p class="section-subtitle">Zresetuj głowę, złap wene i poznaj ludzi takich jak Ty.</p>
+
+        <p>Sztuka to nie tylko praca – to też rozmowy, inspiracje i po prostu spędzanie czasu razem. Chill Zone to serce The Hatchery.</p>
+        
+        <div class="highlight-box">
+            <h3>Klimat w Chill Zone:</h3>
+            <ul class="feature-list" style="list-style: none; margin-top: 1rem;">
+                <li style="margin-bottom: 0.8rem;">Wygodne kanapy i pufy do odcięcia się od świata.</li>
+                <li style="margin-bottom: 0.8rem;">Kącik z dobrą kawą i herbatą.</li>
+                <li><strong>Tablica Inspiracji</strong> – szukasz wokalisty do bitu albo kogoś do malowania? Zostaw info!</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p><strong>THE HATCHERY — ARTS & TALENT HUB LS</strong></p>
+        <p class="support">Stworzone dla ludzi przez ludzi. Wspierane przez Miasto.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

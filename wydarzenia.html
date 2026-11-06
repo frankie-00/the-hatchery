@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wydarzenia — THE HATCHERY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo" style="text-decoration: none;">THE HATCHERY <span>HUB</span></a>
+            
+            <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-menu">
+                <li class="dropdown-container" id="dropdown-container">
+                    <a class="nav-btn dropdown-toggle" onclick="toggleDropdown(event)">Strefy ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="nav-btn" href="muzyka.html">Muzyka</a></li>
+                        <li><a class="nav-btn" href="taniec.html">Taniec</a></li>
+                        <li><a class="nav-btn" href="sztuka.html">Sztuka</a></li>
+                        <li><a class="nav-btn" href="foto.html">Studio Photo</a></li>
+                        <li><a class="nav-btn" href="chill.html">Chill Zone</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-btn" href="wydarzenia.html">Wydarzenia</a></li>
+                <li><a class="nav-btn" href="historia.html">Historia</a></li>
+                <li><a class="nav-btn" href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Nadchodzące & Minione Wydarzenia</h2>
+        <p class="section-subtitle">Sprawdź, co dzieje się w The Hatchery i wpadaj na wydarzenia!</p>
+
+        <div class="grid">
+            <div class="card" style="border-left: 4px solid var(--accent-purple);">
+                <h3>Remont — Wszystkie ręce na pokład!</h3>
+                <p><strong>Kiedy:</strong> Wtorek, 10 listopada, 8:30 PM</p>
+                <p><strong>Gdzie:</strong> 1273 Magellan Ave, La Puerta (8209)</p>
+                <p>Budujemy miejsce stworzone w 100% przez ludzi i dla ludzi! Nie musisz być profesjonalną ekipą budowlaną – liczy się każda para rąk, chęci do działania i dobry humor. Serwujemy domowe brownie, napoje oraz świetną atmosfere!</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p><strong>THE HATCHERY — ARTS & TALENT HUB LS</strong></p>
+        <p class="support">Stworzone dla ludzi przez ludzi. Wspierane przez Miasto.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE HATCHERY — Arts & Talent Hub LS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo" style="text-decoration: none;">THE HATCHERY <span>HUB</span></a>
+            
+            <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-menu">
+                <li class="dropdown-container" id="dropdown-container">
+                    <a class="nav-btn dropdown-toggle" onclick="toggleDropdown(event)">Strefy ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="nav-btn" href="muzyka.html">Muzyka</a></li>
+                        <li><a class="nav-btn" href="taniec.html">Taniec</a></li>
+                        <li><a class="nav-btn" href="sztuka.html">Sztuka</a></li>
+                        <li><a class="nav-btn" href="foto.html">Studio Photo</a></li>
+                        <li><a class="nav-btn" href="chill.html">Chill Zone</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-btn" href="wydarzenia.html">Wydarzenia</a></li>
+                <li><a class="nav-btn" href="historia.html">Historia</a></li>
+                <li><a class="nav-btn" href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="hero hero-home-only hero-music" id="main-hero">
+        <div class="hero-content">
+            <h1>THE HATCHERY</h1>
+            <p class="tagline">ARTS & TALENT HUB LS</p>
+            <!-- <p class="desc">Masz dość ćwiczenia w małym pokoju, kiedy sąsiedzi walą w rury i strachu, że jesteś na coś "za słaby"? Zapomnij o tym! Zbudowaliśmy The Hatchery po to, żebyś w końcu mógł zacząć robić to jak należy.</p> -->
+            <h2>COMING SOON</h2> 
+            <p class="tagline">Chcesz pomóc w tworzeniu The Hatchery? Dołącz do nas we wtorek, 10 listopada</p>
+            <a href="wydarzenia.html" class="btn">SPRAWDŹ</a>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="highlight-box">
+            <h3>Dlaczego "The Hatchery"?</h3>
+            <p>Bo to dosłownie <strong>wylęgarnia</strong>. Miejsce, w którym dajesz sobie prawo do bycia początkującym, popełniania błędów i rozwijania pierwszych skrzydeł. Nie musisz być idealnym artystą – u nas wykluwa się Twój potencjał.</p>
+            <br>
+            <p>Jesteśmy grupą młodych wolontariuszy i przy wsparciu miasta stworzyliśmy przestrzeń w 100% dla amatorów, hobbystów i świeżaków. Zero spinania się, zero oceniania, zero wygórowanych wymagań.</p>
+        </div>
+
+        <h2 class="section-title">Co wyklujesz w naszej przestrzeni?</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Music Corner</h3>
+                <p>Wbijaj z instrumentem albo na mikrofon. Graj głośno, bo tu cisza nocna nie obowiązuje. Pierwsze nagranie? Próba sprawdzenia się jako producent? Da się zrobić!</p>
+                <a href="muzyka.html" class="btn">Zobacz Strefę</a>
+            </div>
+            <div class="card">
+                <h3>Dance Zone</h3>
+                <p>W końcu przestrzeń, w której nie uderzysz łokciem w szafę przy nowym układzie. Do tego ściana pełna luster!</p>
+                <a href="taniec.html" class="btn">Zobacz Strefę</a>
+            </div>
+            <div class="card">
+                <h3>Art & Craft Zone</h3>
+                <p>Maluj, rzeźb, brudź ręce i podłogę. Tutaj plama z farby i graffiti to nie problem, tylko sztuka.</p>
+                <a href="sztuka.html" class="btn">Zobacz Strefę</a>
+            </div>
+            <div class="card">
+                <h3>Photo & Video Studio</h3>
+                <p>Potrzebujesz fotki na profilowe, sesji albo miejsca do nagrania wideo? Tła i światło czekają!</p>
+                <a href="foto.html" class="btn">Zobacz Strefę</a>
+            </div>
+            <div class="card">
+                <h3>Chill Zone</h3>
+                <p>Miejsce na odpoczynek, złapanie weny, wypicie kawy i poznanie ekipy, która jara się tym samym co Ty.</p>
+                <a href="chill.html" class="btn">Zobacz Strefę</a>
+            </div>
+        </div>
+
+        <div class="highlight-box" style="margin-top: 3rem; border-color: #a855f7;">
+            <h3>Tylko dla początkujących!</h3>
+            <p>Nie musisz mieć portfolio, sprzętu za tysiące ani wielkiego talentu. Wystarczy, że masz chęć spróbować czegokolwiek – muzyki, tańca, malowania czy fotografii. Wpadaj, zrób pierwszy krok, poznaj ekipę i zobacz, co z tego wyjdzie.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p><strong>THE HATCHERY — ARTS & TALENT HUB LS</strong></p>
+        <p class="support">Stworzone dla ludzi przez ludzi. Wspierane przez Miasto.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

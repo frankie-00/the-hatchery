@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt — THE HATCHERY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo" style="text-decoration: none;">THE HATCHERY <span>HUB</span></a>
+            
+            <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-menu">
+                <li class="dropdown-container" id="dropdown-container">
+                    <a class="nav-btn dropdown-toggle" onclick="toggleDropdown(event)">Strefy ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="nav-btn" href="muzyka.html">Muzyka</a></li>
+                        <li><a class="nav-btn" href="taniec.html">Taniec</a></li>
+                        <li><a class="nav-btn" href="sztuka.html">Sztuka</a></li>
+                        <li><a class="nav-btn" href="foto.html">Studio Photo</a></li>
+                        <li><a class="nav-btn" href="chill.html">Chill Zone</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-btn" href="wydarzenia.html">Wydarzenia</a></li>
+                <li><a class="nav-btn" href="historia.html">Historia</a></li>
+                <li><a class="nav-btn" href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Kontakt & Wsparcie</h2>
+        <p class="section-subtitle">Skontaktuj się z nami lub dołącz do tworzenia tego miejsca.</p>
+        
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); align-items: center; margin-bottom: 3rem;">
+            <div class="card" style="border-left: 4px solid var(--accent-purple);">
+                <h3>Dane Kontaktowe</h3>
+                <p style="margin-bottom: 0.8rem;"><strong>Adres:</strong> 1273 Magellan Ave, La Puerta (8209)</p>
+                <p style="margin-bottom: 0rem;"><strong>Telefon:</strong> 67-545-35</p>
+            </div>
+            <div style="margin: 0; height: 180px; overflow: hidden; border-radius: 8px;">
+                <img src="https://i.imgur.com/JowuMzY.png" alt="Budynek The Hatchery" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+            </div>
+        </div>
+
+        <h2 class="section-title" style="font-size: 1.5rem; margin-top: 2rem;">Chcesz wspomóc nas w działaniach?</h2>
+        <p class="section-subtitle">Tworzymy to miejsce wspólnie.</p>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Zostań Wolontariuszem / Mentorem</h3>
+                <p>Masz już jakieś doświadczenie albo po prostu chcesz pomóc w tworzeniu przestrzeni? Wspieraj początkujących i dołącz do naszej ekipy.</p>
+            </div>
+            <div class="card">
+                <h3>Wsparcie Materialne</h3>
+                <p>Jeżeli chcesz wspomóc nas w sposób materialny – zapraszamy do kontaktu. <strong>Nie przyjmujemy jednak środków finansowych, a jedynie potrzebny sprzęt</strong> (instrumenty, sztalugi, aparaty, lampy, nagłośnienie, materiały plastyczne).</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p><strong>THE HATCHERY — ARTS & TALENT HUB LS</strong></p>
+        <p class="support">Stworzone dla ludzi przez ludzi. Wspierane przez Miasto.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

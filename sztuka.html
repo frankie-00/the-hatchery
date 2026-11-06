@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art & Craft Zone — THE HATCHERY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo" style="text-decoration: none;">THE HATCHERY <span>HUB</span></a>
+            
+            <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-menu">
+                <li class="dropdown-container" id="dropdown-container">
+                    <a class="nav-btn dropdown-toggle" onclick="toggleDropdown(event)">Strefy ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="nav-btn" href="muzyka.html">Muzyka</a></li>
+                        <li><a class="nav-btn" href="taniec.html">Taniec</a></li>
+                        <li><a class="nav-btn" href="sztuka.html">Sztuka</a></li>
+                        <li><a class="nav-btn" href="foto.html">Studio Photo</a></li>
+                        <li><a class="nav-btn" href="chill.html">Chill Zone</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-btn" href="wydarzenia.html">Wydarzenia</a></li>
+                <li><a class="nav-btn" href="historia.html">Historia</a></li>
+                <li><a class="nav-btn" href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Art & Craft Zone</h2>
+        <p class="section-subtitle">Maluj, rzeźb, brudź ręce i podłogę. Tutaj plama z farby i graffiti to nie problem, tylko sztuka.</p>
+
+        <p>Masz dość uważania, żeby nie zabrudzić biurka w pokoju? W Art & Craft Zone możesz w pełni wejść w proces twórczy.</p>
+        
+        <div class="grid" style="margin-top: 2rem;">
+            <div class="card">
+                <h3>Malarstwo</h3>
+                <p>Sztalugi, płótna, szkicowniki i.. ściany – złap za pędzel, węgiel lub farbę.</p>
+            </div>
+            <div class="card">
+                <h3>Rzeźba</h3>
+                <p>Praca z gliną, masami plastycznymi i formowaniem przestrzennych kształtów.</p>
+            </div>
+            <div class="card">
+                <h3>Upcycling & DIY</h3>
+                <p>Daj drugie życie starym ubraniom lub przedmiotom – przerabiaj po swojemu.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p><strong>THE HATCHERY — ARTS & TALENT HUB LS</strong></p>
+        <p class="support">Stworzone dla ludzi przez ludzi. Wspierane przez Miasto.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
